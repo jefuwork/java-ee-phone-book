@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="restEJB">
+    <jta-data-source>security_resource</jta-data-source>
+        <class>entities.PhoneNumber</class>
+		<properties>
+		    <property name="javax.persistence.jdbc.driver" value="com.ibm.db2.jcc.DB2Driver" />
+		    <property name="javax.persistence.jdbc.url" value="jdbc:db2://localhost:50000/PB" />
+		    <property name="javax.persistence.jdbc.user" value="db2admin" />
+		    <property name="javax.persistence.jdbc.password" value="db2admin" />
+		    <property name="hibernate.dialect" value="org.hibernate.dialect.DB2Dialect"/>
+		    <property name="show_sql" value="true"/>
+		    <property name="hibernate.temp.use_jdbc_metadata_defaults" value="false"/>
+		    <property name="javax.persistence.schema-generation.database.action" value="none"/> 
+		</properties>
+	</persistence-unit>
+</persistence>
