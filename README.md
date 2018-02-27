@@ -1,5 +1,5 @@
 # Java EE
-Web app "Phone Book". Stack: JSP, HTML, JPA, EJB, REST, JavaScript, Ajax, JSON, Jquery.
+Web app "Phone Book". Stack: JSP, HTML, JPA, EJB, REST, JavaScript, Ajax, JSON, Jquery, W3.css.
 
 ![](https://i.imgur.com/m5oAncK.png?1)
 
