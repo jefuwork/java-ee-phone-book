@@ -10,6 +10,9 @@
 
 ![](https://i.imgur.com/5YRXdnZ.gif)
 
+User can see his own records (private and public) + other's public.  
+Admin can see all records.
+
 Login form uses j_security_check. 
 <details>
   <summary>Glassfish security realm config</summary>
