@@ -39,11 +39,13 @@ $(document).ready(function(){
 			$("#amountOfFoundRecords").html(amountOfFoundRecords);
 			$("#paginationBar").css("opacity","0.3");
 			$("#paginationSize").css("opacity", "0.3");
+			inEditMode = false;
 		});
 	}
 
 	// Add new record
 	window.addRecord = function addRecord() {
+		inEditMode = false;
 		var fullname = $('#fullname').val();
 		var address = $('#address').val();
 		var email = $('#selectEmail').val();
@@ -79,7 +81,7 @@ $(document).ready(function(){
 					$('#addNewPhoneForm').hide();
 				},
 				error: function(jqXHR, textStatus, errorThrown){
-					notifyError('add record error (Probably this phone is already exists) ' + jqXHR.responseText);
+					notifyError('add record error (Probably this phone is already exists) ');
 				}
 			});
 		} else {
@@ -89,6 +91,7 @@ $(document).ready(function(){
 
 	// Loads table with given JSON array + function declarations
 	function loadTable(data) {
+		inEditMode = false;
 		// Loads table with given JSON array
 		$('#tbody').html('');
 		var list = data == null ? [] : (data instanceof Array ? data : [data]);
