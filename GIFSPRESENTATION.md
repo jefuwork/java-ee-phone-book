@@ -10,7 +10,7 @@
 
 ![](https://i.imgur.com/5YRXdnZ.gif)
 
-User can see his own records (private and public) + other's public.  
+User can see his own records (private and public) + others' public.  
 Admin can see all records.
 
 Login form uses j_security_check. 
