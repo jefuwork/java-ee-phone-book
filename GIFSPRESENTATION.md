@@ -28,7 +28,7 @@ Login form uses j_security_check.
 
 ![](https://i.imgur.com/3SB6k0T.gif)
 
-Searches at all columns.
+Searches in all columns.
 
 # Pagination
 
@@ -44,7 +44,7 @@ Searches at all columns.
 
 [intl-tel-input](https://github.com/jackocnr/intl-tel-input) was used for phone indexes.
 
-Actually a phone record should be attached to an existing user's email (yet need to implement email existence check on server), but I generated these records so they have random emails.
+Actually a phone record should be attached to an existing user's email (still need to implement email existence check on server), but I generated these records so they have random emails.
 
 # Errors during phone add
 
