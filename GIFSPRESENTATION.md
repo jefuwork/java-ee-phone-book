@@ -39,6 +39,8 @@ Searches at all columns.
 
 ![](https://i.imgur.com/atAwCd0.gif)
 
+[intl-tel-input](https://github.com/jackocnr/intl-tel-input) was used for phone indexes.
+
 Actually a phone record should be attached to an existing user's email (yet need to implement email existence check on server), but I generated these records so they have random emails.
 
 # Errors during phone add
