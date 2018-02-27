@@ -6,7 +6,7 @@
   ![](https://i.imgur.com/qMpQaaV.png)
 </details>
 
-# Logging and showcase
+# Logging in and showcase
 
 ![](https://i.imgur.com/5YRXdnZ.gif)
 
@@ -44,6 +44,9 @@ Actually a phone record should be attached to an existing user's email (yet need
 # Errors during phone add
 
 ![](https://i.imgur.com/T2dsjUZ.gif)
+
+'Fullname' and 'Address' - not null && length < 255  
+'Email' and 'Phone' - using regular expressions on both server and client side.
 
 # Phone edit
 
